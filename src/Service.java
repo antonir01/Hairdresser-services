@@ -1,7 +1,5 @@
 public class Service {
-    String name;
+    ServiceType serviceType;
     double price;
     int duration;
-    ServiceType serviceType;
-
 }
