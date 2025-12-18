@@ -12,4 +12,5 @@ public class Reservation {
         this.date = date;
         this.paymentMethod = paymentMethod;
     }
+
 }

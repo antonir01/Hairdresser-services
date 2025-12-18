@@ -1,8 +1,5 @@
 public class Customer extends Account{
-    boolean isRegularCustomer;
-
-    public Customer(String fullName, String phoneNumber, String PIN, boolean isRegularCustomer) {
+    public Customer(String fullName, String phoneNumber, String PIN) {
         super(fullName, phoneNumber, PIN);
-        this.isRegularCustomer = isRegularCustomer;
     }
 }
