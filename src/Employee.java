@@ -1,13 +1,8 @@
-public class Employee {
-    String name;
-    String surname;
-    String phoneNumber;
-    String PIN;
+public class Employee extends Account{
+    String position;
 
-    public Employee(String name, String surname, String phoneNumber, String PIN) {
-        this.name = name;
-        this.surname = surname;
-        this.phoneNumber = phoneNumber;
-        this.PIN = PIN;
+    public Employee(String fullName, String phoneNumber, String PIN, String position) {
+        super(fullName, phoneNumber, PIN);
+        this.position = position;
     }
 }

@@ -1,13 +1,8 @@
-public class Customer {
-    String name;
-    String surname;
-    String phoneNumber;
-    String PIN;
+public class Customer extends Account{
+    boolean isRegularCustomer;
 
-    public Customer(String name, String surname, String phoneNumber, String PIN) {
-        this.name = name;
-        this.surname = surname;
-        this.phoneNumber = phoneNumber;
-        this.PIN = PIN;
+    public Customer(String fullName, String phoneNumber, String PIN, boolean isRegularCustomer) {
+        super(fullName, phoneNumber, PIN);
+        this.isRegularCustomer = isRegularCustomer;
     }
 }
