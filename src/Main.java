@@ -13,6 +13,8 @@ public class Main {
     public static void main(String[] args) {
         // Create root admin account
         Employee root = new Employee("root", "111 111 111", "1111", "admin");
+        Employee defaultEmployee = new Employee("employee", "222 222 222", "2222", "employee");
+        accounts.add(defaultEmployee);
         accounts.add(root);
 
         boolean endProgram = false;
