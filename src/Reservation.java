@@ -8,7 +8,7 @@ public class Reservation {
     LocalDate date;
     PaymentMethod paymentMethod;
 
-    private static List<Reservation> reservations = new ArrayList<>();
+    private static final List<Reservation> reservations = new ArrayList<>();
 
     public static List<Reservation> getAllReservations() {
         return reservations;

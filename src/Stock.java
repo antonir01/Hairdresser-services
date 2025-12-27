@@ -6,7 +6,7 @@ public class Stock {
     StockType stockType;
     double price;
 
-    private static List<Stock> stockList = new ArrayList<>();
+    private static final List<Stock> stockList = new ArrayList<>();
 
     public Stock(String name, StockType stockType, double price) {
         this.name = name;
